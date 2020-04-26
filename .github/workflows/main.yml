@@ -22,12 +22,13 @@ jobs:
     - name: install ROS tools
       run: |
         cd ~
-        apt install python-catkin-tools python-rosdep -y
-        rosdep init
+        sudo apt install python-catkin-tools python-rosdep -y
+        sudo rosdep init
+        cd catkin_ws/src
         catkin build
     - name: install dependencies
       run: 
-        cd src
+        cd ~/catkin_ws/src
         git clone https://github.com/takanotume24/turtlebot3_simulations.git
         cd turtlebot3
         rosdep -i --from-path .
