@@ -5,5 +5,5 @@
 
 - git:
     local-name: turtlebot3
-    uri: https://github.com/ROBOTIS-GIT/turtlebot3
+    uri: https://github.com/takanotume24/turtlebot3.git
     version: master
