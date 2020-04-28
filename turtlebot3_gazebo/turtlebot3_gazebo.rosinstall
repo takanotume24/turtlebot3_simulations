@@ -7,8 +7,13 @@
     local-name: turtlebot3_description_with_d435
     uri: https://github.com/takanotume24/turtlebot3_description_with_d435.git
     version: master
-    
+
 - git:
     local-name: realsense2_description_pal_robotics_forked
     uri: git@github.com:takanotume24/realsense-ros.git
     version: for-turtlebot3-sim
+
+- git:
+    local-name: realsense_gazebo_plugin
+    uri: https://github.com/pal-robotics/realsense_gazebo_plugin.git
+    version: melodic-devel
