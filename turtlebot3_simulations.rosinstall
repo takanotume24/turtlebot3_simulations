@@ -1,9 +1,0 @@
-- git:
-    local-name: teleop_twist_joy
-    uri: https://github.com/ros-teleop/teleop_twist_joy.git
-    version: melodic-devel
-
-- git:
-    local-name: turtlebot3
-    uri: https://github.com/takanotume24/turtlebot3.git
-    version: master

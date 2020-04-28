@@ -1,0 +1,14 @@
+- git:
+    local-name: teleop_twist_joy
+    uri: https://github.com/ros-teleop/teleop_twist_joy.git
+    version: melodic-devel
+
+- git:
+    local-name: turtlebot3_description_with_d435
+    uri: https://github.com/takanotume24/turtlebot3_description_with_d435.git
+    version: master
+    
+- git:
+    local-name: realsense2_description_pal_robotics_forked
+    uri: git@github.com:takanotume24/realsense-ros.git
+    version: for-turtlebot3-sim
