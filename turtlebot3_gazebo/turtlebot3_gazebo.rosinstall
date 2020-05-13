@@ -10,7 +10,7 @@
 
 - git:
     local-name: realsense2_description_pal_robotics_forked
-    uri: git@github.com:takanotume24/realsense-ros.git
+    uri: https://github.com/takanotume24/realsense-ros.git
     version: for-turtlebot3-sim
 
 - git:
